@@ -1,6 +1,6 @@
 body{
 background-color:transparent, #fce3a0;
-background-image:url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/render.png),url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/bg.png);
+background-image:url(render.png),url(bg.png);
 /*background-size:70% 70%,132px 101px;*/
 background-position:right bottom,0 0;
 background-repeat:no-repeat,repeat;
