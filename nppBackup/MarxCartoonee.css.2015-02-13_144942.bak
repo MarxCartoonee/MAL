@@ -1,0 +1,171 @@
+body{
+background:url(http://i.imgur.com/3od51IS.png) #fce3a0 98% 95%  no-repeat fixed;
+font-weight: light;
+}
+
+@font-face{
+font-family:Allura Regular;
+src:url(https://dl.dropboxusercontent.com/u/50306385/MAL/Allura-Regular.ttf);
+
+}
+
+/* SUB-HEADERS BACKGROUND COLOR COLOR
+Below each main header is the sub-header which says Score, Episodes, Tags, etc. */
+
+
+
+/* ANIME/MANGA TITLE FONTS
+This is the type and color of the anime/manga titles on your list, like Bleach, Vampire Knight, etc. */
+
+
+
+/* LIST FONTS
+This is the type and color for more of the numbers, links, and words on the list itself! */
+
+.td1, .td2, a, a:visited, .category_totals, .table_header, #grand_totals, #copyright {
+color:white;
+font-family:Lucida Grande;
+}
+
+/* OTHER CODES
+Important codes for the layout's setup. Don't mess with these unless you know exactly what you're doing. If you want to customize more on the page, use the link at the top of this CSS, or ask in my club! */
+
+#list_surround {
+/*width:950px;*/
+margin:0 33% auto 3%;
+opacity:0.75;
+/*background-image:url();*/
+}
+a {
+text-decoration:none;
+}
+a:visited {
+text-decoration:none;
+}
+a:hover, a:visited:hover {
+color:red;
+text-decoration:underline;
+}
+.category_totals,.td1,.td2,#grand_totals,#copyright {
+background-image:url();
+border:;
+padding:2px;
+}
+/* MINE */
+.animetitle, .animetitle:visited {
+color:#ed7b35;
+font-family:Monotype Corsiva;
+font-size:14pt;
+}
+.animetitle:hover,.animetitle:visited:hover{
+color:#f7b664;
+text-decoration:none;
+/*text-shadow:-1px -1px 0 #ed7b35/*,1px -1px 0 #ed7b35,-1px 1px 0 #ed7b35,1px 1px 0 #ed7b35*/;
+}
+.td1,.td2,.table_header:first-child,.table_header:last-child,.header_title,.category_totals{
+border-width:0px;
+border-style:solid;
+border-color:#694c00;
+}
+.table_header {
+background-color:#7d6042;
+}
+.header_title {
+background:url(http://i.imgur.com/A36whwP.png) #DEAC67 200px center no-repeat;
+color:white;
+font-family:Allura Regular/*Vladimir Script*/;
+font-size:24pt;
+font-weight:bold;
+padding:5px;
+/*text-shadow:-2px -2px 0 #DEAC67,2px -2px 0 #DEAC67,-2px 2px 0 #DEAC67,2px 2px 0 #DEAC67;*/
+}
+.header_title span{
+display:block;
+width:190px;
+text-align:center;
+}
+.td1,.td2{
+color:#636468;
+background-color:#fff6cf;
+font-family:Baskerville;
+border-right-width:0px;
+}
+.td2{
+background-color:#fcecb9;
+}
+.td1:nth-child(3),.td1:nth-child(5),.td2:nth-child(3),.td2:nth-child(5){
+color:white;
+background-color:#edc083;
+}
+.td2:nth-child(3),.td2:nth-child(5){
+background-color:#DEAC67;
+}
+.td2:first-child,.td1:first-child,.table_header:first-child{
+border-left-width:5px !important;
+}
+.td2:last-child,.td1:last-child,.table_header:last-child{
+border-right-width:5px;
+}
+.header_title{
+border-width:5px 5px 0px 5px;
+border-radius:10px 10px 0 0;
+}
+.category_totals{
+color:white;
+background-color:#7d6042;
+border-width:0px 5px 5px 5px;
+border-radius:0 0 10px 10px;
+}
+/* MINE */
+/*.category_totals:HOVER,.td1:HOVER,.td2:HOVER,#grand_totals:HOVER,#copyright:HOVER {
+background-color:black;
+border-width:0;
+padding:2px;
+}
+#copyright:after {
+content: " Custom CSS by Shishio-kun. Google 'Shishio's Custom Lists' for more designs or info.";
+}*/
+.status_selected ,.status_not_selected {
+background-color:#694c00;
+padding:2px;
+color:#b8b9bd;
+}
+.status_selected a{
+color:white;
+font-family:Lucida Handwriting;
+font-size:12pt;
+}
+.status_not_selected a{
+color:#b8b9bd;
+font-family:Lucida Handwriting;
+font-size:12pt;
+}
+.status_selected:first-child,.status_not_selected:first-child{
+border-width:0;
+border-radius:5px 0 0 5px;
+}
+.status_selected:last-child,.status_not_selected:last-child{
+border-width:0;
+border-radius:0 5px 5px 0;
+}
+.status_selected ,.status_not_selected {
+border-right:5px solid #fff6cf !important;
+border-image:linear-gradient(to bottom, #694c00 0%,#fff6cf 25%,#fff6cf 75%,#694c00 100%) 5 5!important;
+}
+.thickbox {
+color:cyan;
+font-family:fantasy;
+font-size:12px;
+}
+.table_header {
+border-width:0;
+font-weight:bold;
+padding:2px;
+}
+.category_totals {
+height:30px;
+}
+#copyright, #grand_totals {
+text-align: center;
+margin:0 auto;
+}
