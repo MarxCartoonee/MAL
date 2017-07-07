@@ -1,6 +1,6 @@
 body{
 background-color:transparent, #fce3a0;
-background-image:url(https://dl.dropboxusercontent.com/u/50306385/MAL/render.png),url(https://dl.dropboxusercontent.com/u/50306385/MAL/bg.png);
+background-image:url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/render.png),url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/bg.png);
 /*background-size:70% 70%,132px 101px;*/
 background-position:right bottom,0 0;
 background-repeat:no-repeat,repeat;
@@ -13,15 +13,15 @@ margin-top:20px;
 }
 @font-face{
 font-family:Allura Regular;
-src:url(https://dl.dropboxusercontent.com/u/50306385/MAL/Allura-Regular.ttf);
+src:url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/Allura-Regular.ttf);
 }
 @font-face{
 font-family:Cinnamon Cake;
-src:url(https://dl.dropboxusercontent.com/u/50306385/MAL/cinnamon%20cake.ttf);
+src:url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/cinnamon%20cake.ttf);
 }
 @font-face{
 font-family:Monotype Corsiva;
-src:url(https://dl.dropboxusercontent.com/u/50306385/MAL/MTCORSVA.TTF);
+src:url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/MTCORSVA.TTF);
 }
 
 
@@ -53,7 +53,7 @@ z-index:1;
 background:url(http://i.imgur.com/X5mwGIL.png) 0 0 repeat-x;
 }*/
 #mal_control_strip{
-background:transparent url(https://dl.dropboxusercontent.com/u/50306385/MAL/top.png) 0 0 repeat-x !important;
+background:transparent url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/top.png) 0 0 repeat-x !important;
 height:92px;
 padding-bottom:52px !important;
 position:fixed;
@@ -131,7 +131,7 @@ font-weight:bold;
 padding:2px;
 }
 .header_title {
-background:url(https://dl.dropboxusercontent.com/u/50306385/MAL/decor.png) #DEAC67 200px center no-repeat;
+background:url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/decor.png) #DEAC67 200px center no-repeat;
 color:white;
 font-family:Allura Regular/*Vladimir Script*/;
 font-size:24pt;
@@ -146,7 +146,7 @@ text-align:center;
 }
 .header_title span:after{
 content:" ";
-background-image:url(https://dl.dropboxusercontent.com/u/50306385/MAL/Flower.png);
+background-image:url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/Flower.png);
 width:230px;
 height:156px;
 vertical-align:baseline;
