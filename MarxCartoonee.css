@@ -13,15 +13,15 @@ margin-top:20px;
 }
 @font-face{
 font-family:Allura Regular;
-src:url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/Allura-Regular.ttf);
+src:url(Allura-Regular.ttf);
 }
 @font-face{
 font-family:Cinnamon Cake;
-src:url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/cinnamon%20cake.ttf);
+src:url(cinnamon%20cake.ttf);
 }
 @font-face{
 font-family:Monotype Corsiva;
-src:url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/MTCORSVA.TTF);
+src:url(MTCORSVA.TTF);
 }
 
 
@@ -53,7 +53,7 @@ z-index:1;
 background:url(http://i.imgur.com/X5mwGIL.png) 0 0 repeat-x;
 }*/
 #mal_control_strip{
-background:transparent url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/top.png) 0 0 repeat-x !important;
+background:transparent url(top.png) 0 0 repeat-x !important;
 height:92px;
 padding-bottom:52px !important;
 position:fixed;
@@ -131,7 +131,7 @@ font-weight:bold;
 padding:2px;
 }
 .header_title {
-background:url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/decor.png) #DEAC67 200px center no-repeat;
+background:url(decor.png) #DEAC67 200px center no-repeat;
 color:white;
 font-family:Allura Regular/*Vladimir Script*/;
 font-size:24pt;
@@ -146,7 +146,7 @@ text-align:center;
 }
 .header_title span:after{
 content:" ";
-background-image:url(https://raw.githubusercontent.com/MarxCartoonee/MAL/master/Flower.png);
+background-image:url(Flower.png);
 width:230px;
 height:156px;
 vertical-align:baseline;
