@@ -13,15 +13,15 @@ table + br {
 }
 @font-face {
   font-family: Allura Regular;
-  src: url(Allura-Regular.ttf);
+  src: url(allura_regular.ttf);
 }
 @font-face {
   font-family: Cinnamon Cake;
-  src: url(cinnamon%20cake.ttf);
+  src: url(cinnamon_cake.ttf);
 }
 @font-face {
   font-family: Monotype Corsiva;
-  src: url(MTCORSVA.TTF);
+  src: url(mtcorsva.ttf);
 }
 
 /* LIST FONTS
